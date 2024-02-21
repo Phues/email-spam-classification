@@ -2,10 +2,8 @@ import numpy as np
 import pandas as pd
 import nltk
 import os
-import time
 import string
 import re
-import tqdm
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.ensemble import IsolationForest

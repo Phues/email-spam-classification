@@ -4,10 +4,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import io
 import numpy as np
-import nltk
-import os
-import zipfile
-from wordcloud import WordCloud
 from sklearn.feature_extraction.text import CountVectorizer
 
 st.session_state['toggle'] = 0
